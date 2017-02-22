@@ -7,7 +7,7 @@ import java.util.HashSet;
 
 public class Main {
     public static void main(String[] args) throws IOException {
-
+        // Keep it simple stupid :)
         BufferedReader scan = new BufferedReader(new InputStreamReader(System.in));
         HashSet<String> cats = new HashSet<>();
         while (true){
