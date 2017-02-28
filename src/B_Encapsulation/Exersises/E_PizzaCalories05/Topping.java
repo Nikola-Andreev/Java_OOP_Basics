@@ -1,10 +1,10 @@
 package B_Encapsulation.Exersises.E_PizzaCalories05;
 
-public class Topping {
+class Topping {
     private String _type;
     private Double _weight;
 
-    public Topping(String type, Double weight) {
+    Topping(String type, Double weight) {
         this.setType(type);
         this.setWeight(weight);
     }
@@ -22,7 +22,7 @@ public class Topping {
         }
     }
 
-    public Double getWeight() {
+    Double getWeight() {
         return this._weight;
     }
 

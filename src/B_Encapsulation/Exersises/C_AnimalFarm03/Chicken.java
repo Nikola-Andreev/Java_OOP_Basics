@@ -41,24 +41,12 @@ public class Chicken {
     }
 
     private double calculateProductPerDay() {
-        switch (this.age) {
-            case 0:
-            case 1:
-            case 2:
-            case 3:
-                return 2;
-            case 4:
-            case 5:
-            case 6:
-            case 7:
-                return 3;
-            case 8:
-            case 9:
-            case 10:
-            case 11:
-                return 2;
-            default:
-                return 1;
+        if (this.age >=0 && this.age < 6) {
+            return 2;
+        } else if (this.age >= 6 && this.age < 12){
+            return 1;
+        } else {
+            return 0.75;
         }
     }
 }
