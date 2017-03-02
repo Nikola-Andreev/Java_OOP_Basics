@@ -6,7 +6,7 @@ public class Worker extends Human{
    private double _weekSalary;
    private double _workHourPerDay;
 
-    public Worker(String firstName, String lastName, double weekSalary, double workHourPerDay) {
+    Worker(String firstName, String lastName, double weekSalary, double workHourPerDay) {
         super(firstName, lastName);
         this.setWeekSalary(weekSalary);
         this.setWorkHourPerDay(workHourPerDay);

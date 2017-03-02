@@ -36,7 +36,7 @@ public class Chicken {
         this.age = age;
     }
 
-    public double getProductPerDay() {
+    double getProductPerDay() {
         return this.calculateProductPerDay();
     }
 
